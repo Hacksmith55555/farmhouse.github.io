@@ -299,6 +299,11 @@
     width: 80%;
 }
 
+#main__imghours {
+    height: 108.5%;
+    width: 108.5%;
+}
+
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
     .main__container {
