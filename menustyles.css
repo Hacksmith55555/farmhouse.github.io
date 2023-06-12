@@ -19,7 +19,8 @@ body {
     margin-bottom: 10px;
     color: #8c644e;
     text-transform: uppercase;
-    border-bottom-style: dotted
+    border-bottom-style: dotted;
+    padding-top: 2rem;
   }
   
   ul {
@@ -29,9 +30,7 @@ body {
     -moz-column-count: 3;
     column-count: 3;
   }
-  
- 
-  
+    
   .wholemenu li:before {
     content: "\2022";
     color: #8c644e;
@@ -55,7 +54,7 @@ body {
 
   .menu p{
     text-align: center;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     font-size: 1.5rem;
   }
 
@@ -63,4 +62,20 @@ body {
   
   .mid {
     text-align: center;
+  }
+
+  @media screen and (max-width: 481px){
+
+
+    ul{
+      list-style-type: none;
+    padding: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    font-size: 15px;
+    }
+
+  
+  
   }
