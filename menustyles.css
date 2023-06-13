@@ -68,14 +68,19 @@ body {
 
 
     ul{
-      list-style-type: none;
-    padding: 0;
+    list-style-type: none;
+    padding:0;
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
     font-size: 15px;
     }
 
-  
+    li{
+      padding: .3rem;
+      padding-top: .5rem;
+      page-break-inside: avoid;
+    }
+
   
   }
